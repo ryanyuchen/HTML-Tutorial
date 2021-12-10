@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- meta tag on metadata on file information-->
+        <meta charset="UTF-8">
+        <meta name="description" content="This is the website for HTML5 Tutorial">
+        <meta name="author" content="Yu Chen">
+        <meta name="keywords" content="HTML5">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTMLTutorial</title>
+    </head>
+
+    <body>
+        <!-- header tag -->
+        <header>
+            <h1 style="text-align:center">HTML5 Tutorial</h1>
+        </header>
+
+        <!-- main tag -->
+        <main>
+            <h2>Basic Tags</h2>
+            <!-- hizontal line tag -->
+            <hr/>
+            <!-- paragph tag -->
+            <p> <big>This</big> is the <small>website</small> for <b>HTML5</b> Tutorial </p>
+            <p> This <big>sections</big> some basic HTML5 <i>tags</i> </p>
+            <p> Sub/Sup tag example: H<sub>2</sub>O and 10<sup>2</sup> </p>
+
+            <h2 style="color: blue;">Style and Color</h2>
+            <hr/>
+            <p style="color: red; background-color:yellow"> You can style your HTML </p>
+
+            <h2>Links</h2>
+            <hr/>
+            <!-- target="_blank" to open a new tab -->
+            <a href="https://www.google.com" target="_blank"><h4>Google's Homepage</h4></a>
+            <a href="page1.html"><h4>Hello World</h4></a>
+            <a href="Apple-Event.jpg"><h4>Apple Event</h4></a>
+
+            <h2>Images</h2>
+            <hr/>
+            <h4>Apple Event Image from Online</h4>
+            <img width="400" height="200" src="https://i1.wp.com/9to5mac.com/wp-content/uploads/sites/6/2021/09/Apple-Event-September-2021.jpg?w=1024&quality=82&strip=all&ssl=1" alt="Apple Event" />
+            <h4>Apple Event AR Image from Local</h4>
+            <!-- use width or height only and pic will be adjusted to original aspect ratio -->
+            <img width="400" src="apple-event-ar.webp" alt="Apple Event AR" />
+
+            <h2>Lists</h2>
+            <hr/>
+            <h3>unordered list</h3>
+            <ul>
+                <li>Apples</li>
+                <li>Oranges</li>
+                <li>Banas</li>
+            </ul>
+            <h3>ordered list</h3>
+            <ol type="1">
+                <li>Apples</li>
+                <li>Oranges</li>
+                <li>Banas</li>
+            </ol>
+            <ol type="I">
+                <li>Apples</li>
+                <li>Oranges</li>
+                <li>Banas</li>
+            </ol>
+            <ol type="1">
+                <li>Apples</li>
+                <li>Oranges</li>
+                    <ol type="a">
+                        <li>item1</li>
+                        <li>item2</li>
+                    </ol>
+                <li>Banas</li>
+            </ol>
+
+            <h2>Tables</h2>
+            <hr/>
+            <table style="width:50%">
+                <thead>
+                    <caption><h4>England Premier League</h4></caption>
+                    <tr>
+                        <th style="text-align:left"><b>Teams</b></th>
+                        <th style="text-align:left"><b>Ranks</b></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Man Utd</td>
+                        <td>1</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Man City</td>
+                        <td>2</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Divs & Spans</h2>
+            <hr/>
+            <!-- Spans (inline) -->
+            <a href="#">link1</a>
+            <a href="#">link2</a>
+            <br/>
+            <!-- Divs -->
+            <p> Paragraph1 </p>
+            <p> Paragraph2 </p>
+            <br/>
+            <!-- Divs and Spans -->
+            <div><a href="#">link1</a></div>
+            <div><a href="#">link2</a></div>
+            <span>Paragraph1</span>
+            <span>Paragraph2</span>
+
+            <h2>Input & Forms</h2>
+            <hr/>
+            <form>
+                <input type="text" value="Enter Your Username" />
+                <br/>
+                <input type="password" />
+                <br/>
+                <textarea rows="10" cols="50">
+                    Enter a Paragraph
+                </textarea>
+                <br/>
+                <input type="date" />
+                <br/>
+                <input type="range" />
+                <br/>
+                <input type="file" />
+                <br/>
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <br/>
+                <input name="btn" type="radio" />
+                <input name="btn" type="radio" />
+                <br/>
+                <input type="submit" />
+            </form>
+
+        </main>
+        <!-- break new line tag -->
+        <br/>
+
+        <!-- footer tag -->
+        <footer>
+            <p style="text-align:center">Copyright 2021</p>
+        </footer>
+
+    </body>
+</html>
